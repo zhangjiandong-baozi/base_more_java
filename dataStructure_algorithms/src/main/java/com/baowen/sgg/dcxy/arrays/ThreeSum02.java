@@ -77,12 +77,9 @@ public class ThreeSum02 {
                     while (lp<rp && ints[rp]==ints[rp+1]){
                         rp--;
                     }
-                }
-
-                if(sum<0){
+                } else if(sum<0){
                     lp++;
-                }
-                if(sum>0){
+                } else{
                     rp--;
                 }
             }
