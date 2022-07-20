@@ -1,4 +1,4 @@
-package com.baowen.sgg.dcxy.hashmap;
+package com.baowen.sgg.dcxy.hashmap6;
 
 import java.util.Arrays;
 import java.util.HashSet;
